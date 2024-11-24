@@ -7,7 +7,7 @@
 1. 延迟较高
 2. 原来的小爱同学会在 AI 回答之前抢话，而且问题无解
 
-## 使用方法
+## 安装方法
 
 ```
 git clone https://github.com/Jackiexiao/mi-gpt
@@ -18,14 +18,24 @@ bun install
 
 # 快速启动
 bun run start
+```
 
-# pm2 启动
+也可以选择 pm2 启动，更稳定点
+
+```
 ## 全局安装 PM2
 bunx pm2@latest install -g
 
 ## 使用 PM2 启动 Bun 的 start 脚本
 pm2 start bun --name "mi-gpt" -- start
 ```
+
+## 使用方法
+
+对着小爱音箱说：
+
+小爱同学，请问 XXX
+小爱同学，进入 AI 模式
 
 ## 可选
 
@@ -40,3 +50,10 @@ Q：原来的小爱同学会在 AI 回答之前抢话？
 
 yihong0618/xiaogpt#515 (comment)
 #21 (comment)
+
+Q：异地登录的问题（比如服务器在上海，你人在广州）
+https://github.com/idootop/mi-gpt/blob/main/docs/faq.md#q%E6%8F%90%E7%A4%BA%E8%A7%A6%E5%8F%91%E5%B0%8F%E7%B1%B3%E8%B4%A6%E5%8F%B7%E5%BC%82%E5%9C%B0%E7%99%BB%E5%BD%95%E4%BF%9D%E6%8A%A4%E6%9C%BA%E5%88%B6
+
+## 其他问题
+
+请参考原仓库: https://github.com/idootop/mi-gpt
